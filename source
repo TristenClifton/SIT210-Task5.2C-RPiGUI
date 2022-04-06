@@ -8,8 +8,6 @@ GPIO.setup(3, GPIO.OUT)
 GPIO.setup(5, GPIO.OUT)  
 GPIO.setup(7, GPIO.OUT)  
 
-def write_slogan():
-    print("Tkinter is easy to use!")
 
 def ToggleRed():
         GPIO.output(3, GPIO.HIGH)
